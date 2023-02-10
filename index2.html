@@ -1,0 +1,52 @@
+<html>
+    <head> 
+        <title>registration page</title>
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    </head>
+    <body>
+        <div class ="container">
+            <div class="row col-nd-6 col-nd-offset-3">
+                <div class="panel-heading text-center">
+                    <h1> Registration Form</h1>
+                </div>
+                <div class="panel- body">
+                    <form action="connect.php" method="POST">
+                        <div class="form-group">
+                            <label for="firstname">FirstName</label>
+                            <input type ="text" class="form-control" id="firstName" name="firstName"/>
+                        </div>
+                        <div class="form-group">
+                            <label for="lastname">LastName</label>
+                            <input type="text" class="form-contol" id="LastName" name="LastName"/>
+                        </div>
+                        <div class="form-group">
+                            <label for="gender">Gender</label>
+                            <div >
+                                <label for="male" class="radio-inline"><input type="radio"name="gender"id="male">male</label>
+                                <label for="female" class="radio-inline"><input type="radio"name="gender"id="female">female</label>
+                                <label for="others" class="radio-inline"><input type="radio"name="gender"id="others">others</label>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">email</label>
+                            <input type="text" class="form-control" id="email" name="email"/>
+                        </div>
+                        <div class="form-group">
+                        <label for="password"> Password</label>
+                        <input type="password" class="form-control" id="password"name="password"/>
+                    </div>
+                    <div class="form-group">
+                        <label for="number">phone number</label>
+                        <input type="number" class="form-control"id="number"name="number"/>
+                    </div>
+                
+                <input type="submit" class="btn btn-primary">
+                    </form>
+                </div>
+                <div class="panel- footer text-right">
+                    <small >&copy;musango</small>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
